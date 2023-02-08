@@ -95,7 +95,7 @@ vector<vector<double>> filterData(vector<vector<double>>& rawData, int minAge, i
     v = [1.0,2.0,3.0,4.0,5.5]
     startIndex = 3
     windowLength = 3
-    avg = (4.0 + 5.5) / 2 = 9.5
+    avg = (4.0 + 5.5) / 2 = 4.75
  */
 double getAvgNextNValues(vector<double> const& v, size_t startIndex , size_t windowLength){ 
     /* TODO: STUB */
